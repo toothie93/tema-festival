@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <meta name="author" content="Alessia">
+       <meta name="keywords" content="Festival, Concert, Eveniment">
+       <meta name="description" content="Primul festival de muzică indie și R&B din România">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+       <title>Divine Fest</title>
+       <link href=style.css rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light p-2 p-sm-3 px-md-5">
+                <a href="#" class="navbar-brand">
+                    <img src="images-2/moon.png" alt="logo lună" width="30" height="30"
+                    class="d-inline-block align-top" /> DIVINE FEST
+                </a>
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-lable="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li>
+                            <a class="nav-link" href="#despre-festival">Despre festival</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#tickets">Bilete</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img src="images-2/audience.jpg" class="d-block w-100 c-img" alt="oameni la concert cu mâinile sus">
+                <div class="carousel-caption top-0">
+                    <p class="mt-5 fs-4 mb-5 invisible">Primul festival din România care combină muzica indie și R&B pe o singură scenă</p>
+                    <h1 class="display-1 fw-bolder text-capitalized">Divine Fest 2023</h1>
+                    <p class="mt-3 fs-5rem">Primul festival din România de muzică indie și R&B</p>
+                  </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="images-2/audience5.jpg" class="d-block w-100 c-img" alt="oameni la concert cu mâinile sus">
+                <div class="carousel-caption top-0">
+                    <p class="mt-5 fs-4 mb-5 invisible">Primul festival din România care combină muzica indie, R&B și hip-hop pe o singură scenă</p>
+                    <h1 class="display-1 fw-bolder text-capitalized">Divine Fest 2023</h1>
+                    <p class="mt-3 fs-5rem">Primul festival din România de muzică indie, R&B și hip-hop</p>
+                  </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="images-2/festival.jpg" class="d-block w-100 c-img" alt="oameni la concert cu mâinile sus">
+                <div class="carousel-caption top-0">
+                    <p class="mt-5 fs-4 mb-5 invisible">Primul festival din România care combină muzica indie și R&B pe o singură scenă</p>
+                    <h1 class="display-1 fw-bolder text-capitalized">Divine Fest 2023</h1>
+                    <p class="mt-3 fs-5rem">Primul festival din România de muzică indie și R&B</p>
+                  </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="images-2/pexels-photo-976866.jpeg" class="d-block w-100 c-img" alt="oameni la concert cu mâinile sus">
+                <div class="carousel-caption top-0">
+                    <p class="mt-5 fs-4 mb-5 invisible">Primul festival din România care combină muzica indie și R&B pe o singură scenă</p>
+                    <h1 class="display-1 fw-bolder text-capitalized">Divine Fest 2023</h1>
+                    <p class="mt-3 fs-5rem">Primul festival din România de muzică indie și R&B</p>
+                  </div>
+              </div>
+              <div class="carousel-item c-item">
+                <img src="images-2/audience4.jpg" class="d-block w-100 c-img" alt="oameni la concert cu mâinile sus">
+                <div class="carousel-caption top-0">
+                    <p class="mt-5 fs-4 mb-5 invisible">Primul festival din România care combină muzica indie și R&B pe o singură scenă</p>
+                    <h1 class="display-1 fw-bolder text-capitalized">Divine Fest 2023</h1>
+                    <p class="mt-3 fs-5rem">Primul festival din România de muzică indie și R&B</p>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+          <div id="despre-festival">
+            <div class="festival-info">
+                <h2 class="mt-5 text-center">Despre festival</h2>
+                <p class="fest-text px-5 pt-4">Festivalul Divine Fest se află la a doua sa ediție și este primul festival din România care combină muzica indie și R&B într-un singur loc. 
+                    Avem un line-up format atât din artiști locali, cât și din artiști străini. Programul festivalului este împărțit în trei în două categorii, fiecare
+                    stil de muzică având o întreagă zi dedicată. </p>
+                <p class="fest-text px-5 pt-2"> Festivalul va fi organizat la <a class="a-loc" href="https://www.google.com/maps/place/Aeroportul+Utilitar+Cioca/@45.7873545,21.1966208,15z/data=!4m5!3m4!1s0x0:0x33508c3bac265bc8!8m2!3d45.7873545!4d21.1966208" >Aerodromul Cioca</a> în 11 și 12 martie 2023. 30% din veniturile festivalului vor fi donate la Spitalul Clinic de Urgență pentru Copii Louis Țurcanu Timișoara.
+                </p>
+            </div>
+          </div>
+          <div id="tickets">
+            <h2 class="mt-5 text-center">Bilete</h2>
+            <div class="container">
+            <div class="row p-4">
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="images-2/accesindie1.jpg" alt="bărbat care cântă la chitară" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Acces indie</h3>
+                            <p class="card-text">Acces la programul indie din 11 martie</p>
+                            <a href="#" class="btn btn-primary">70 RON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="images-2/accesrnb1.jpg" alt="femeie care cântă la microfon" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Acces R&B</h3>
+                            <p class="card-text">Acces la programul R&B din 12 martie</p>
+                            <a href="#" class="btn btn-primary">70 RON</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="images-2/accesall1.jpg" alt="oameni la concert și confetti în aer" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Acces general <span class="badge bg-secondary">-15%</span></h3>
+                            <p class="card-text">Acces la ambele zile de festival (11-12 martie)</p>
+                            <a href="#" class="btn btn-primary">119 RON</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div id="faq" class="py-5">
+            <h2 class="text-center">FAQ</h2>
+            <div class="accordion w-75 mx-auto pt-4" id="accordionExample">
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      De la ce vârstă este permis accesul la festival?
+                    </button>
+                  </h3>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Pentru persoanele cu vârsta cuprinsă între 14 și 18 ani, este necesară completarea de către părinți/tutore/persoană responsabilă legal a unei declarații ce privește accesul la festival. Declarația trebuie prezentată în format fizic la intrarea în festival. Este necesară prezentarea unui act de identitate la intrare pentru verificarea vârstei.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Ce ar trebui să aduc cu mine la festival?
+                    </button>
+                  </h3>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Pe lângă actul de identita și bilet, vă recomandăm să vă luați doar obiecte necesare (portofel, telefon, medicamente etc.). Accesul cu mâncare și băuturi alcoolice este interzis. Vor exista standuri de unde se pot cumpăra mâncare și băuturi.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Există zonă de camping?
+                    </button>
+                  </h3>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Da, iar accesul este gratuit pentru cei care vin cu propriul cort. În curând va exista și posibilitatea de a cumpăra acces corturi din zona de camping pentru cei care nu vin cu ele.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div id="contact">
+          <footer class="bg-dark py-5 mt-5">
+            <div class="container text-light text-center">
+                <h2 class="display-5 mb-3">Divine Fest</h2>
+                <p>Tel: +40 743 xxx xxx</p>
+                <p class="pb-3">E-mail: divinefestcontact@gmailx.com</p>
+                <a href="https://www.facebook.com/"><i class="bi bi-facebook fs-4 text-light"></i></a>
+                <a href="https://www.instagram.com/"><i class="bi bi-instagram fs-4 p-5 text-light"></i></a>
+                <a href="https://twitter.com/home"><i class="bi bi-twitter fs-4 text-light"></i></a>
+                <p class="pt-5"><small class="text-white-50">&copy; 2022 Company, Inc</small></p>
+            </div>
+          </footer>
+          </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+</html>
